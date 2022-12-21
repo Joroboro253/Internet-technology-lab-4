@@ -12,12 +12,12 @@
 </head>
 
 <body>
-    <h2>  Сайт СТО "Мираж" </h2> <br>
+    <h2>  Записаная книга СТО "Мираж" </h2> <br>
     
     <form action="action1.php" method="get"> 
         <input type = "text" name = "nomer" placeholder = "Введите номер клиента"> </input>
         <br>
-        <input type = "text" name = "anek" placeholder = "Введите клиента"> </input>
+        <input type = "text" name = "client" placeholder = "Введите клиента"> </input>
         <br>
         <button type = "submit"> Редактировать запись </button>
     </form>

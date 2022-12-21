@@ -15,8 +15,8 @@
     <?php
     
     $nomer = (int)$_GET['nomer'];
-    $anek = $_GET['anek'];
-    for ($i = 1; $i <= 15; $i++){
+    $client = $_GET['client'];
+    for ($i = 1; $i <= 20; $i++){
         if (file_exists("clients/{$i}.txt")){
         $files_amount++;
         } else {
@@ -28,9 +28,9 @@
         $succes = false;
     } else {
         $succes = true;
-        $new_anek = fopen("clients/{$nomer}.txt","w");
-        fwrite($new_anek,$anek);
-        fclose($new_anek);
+        $new_client = fopen("clients/{$nomer}.txt","w");
+        fwrite($new_client,$client);
+        fclose($new_client);
     }
     ?>
 

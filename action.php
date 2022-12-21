@@ -21,11 +21,11 @@
         }
     }
     $files_amount++;
-    $new_anek = fopen("clients/{$files_amount}.txt","w");
-    $anek = $_POST['anek'];
-    echo $_POST['anek'];
-    fwrite($new_anek,$anek);
-    fclose($new_anek);
+    $new_client = fopen("clients/{$files_amount}.txt","w");
+    $client = $_POST['client'];
+    echo $_POST['client'];
+    fwrite($new_client,$client);
+    fclose($new_client);
     ?>
 
     <h2> Клиент добавлен</h2> <br>

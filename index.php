@@ -12,12 +12,12 @@
 </head>
 
 <body>
-    <h2> Сайт СТО "Мираж" </h2> <br>
+    <h2> Записаная книга СТО "Мираж" </h2> <br>
 
     <h3> <?php 
                 $files_amount = 0;
                
-                for ($i = 1; $i <= 5; $i++){
+                for ($i = 1; $i <= 20; $i++){
                     if (file_exists("clients/{$i}.txt")){
                     $files_amount++;
                     } else {

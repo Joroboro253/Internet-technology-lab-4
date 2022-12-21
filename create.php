@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <h2>  Сайт СТО "Мираж" </h2> <br>
+    <h2>  Записаная книга СТО "Мираж" </h2> <br>
     
     <form action="action.php" method="post"> 
         <input type = "text" name = "client" placeholder = "Ведите клиента"> </input>
